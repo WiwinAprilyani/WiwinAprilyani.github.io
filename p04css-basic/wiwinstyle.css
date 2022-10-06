@@ -1,0 +1,42 @@
+
+.rules{
+    color: blue;    
+}
+.rules:hover{
+    transition: 1s;
+    color: black;
+}
+h5{
+    color: blue;
+}
+a {
+    color: rgb(24, 89, 89);
+    text-decoration: none;
+}
+
+body{
+    font-family: sans-serif;
+}
+img{
+    width: 100%;
+    height: auto;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+select:hover {
+    background-color: antiquewhite;
+  }
+  
+  option:hover {
+    background-color: antiquewhite;
+  }
+  
+  input:hover {
+    background-color: antiquewhite;
+  }
+  
+  textarea:hover {
+    background-color: antiquewhite;
+  }
