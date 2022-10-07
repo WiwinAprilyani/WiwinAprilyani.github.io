@@ -319,7 +319,11 @@ center a {
     margin: 0px;
 }
 
-
+.porto{
+	display: flex;
+    flex-direction: row;
+	justify-content: space-evenly;
+	}
 
 
 /* Responsif */
@@ -358,13 +362,12 @@ center a {
         text-align: center;
     }
 
-    .skill {
-        margin-left: 95px;
-    }
-
-    .tugas-kuliah {
-        margin-right: 85px;
-    }
+    
+	.porto{
+	display: flex;
+    flex-direction: column;
+	justify-content: space-evenly;
+	}
 }
 
 /* Menu Responsif Breakpoint */
@@ -381,9 +384,9 @@ center a {
 /* Menu Ukuran Mobile */
 @media screen and (max-width: 576px) {
     nav ul li a {
-        font-size: larger;
+        font-size: 16pt;
         color: #fff;
-        font-weight: bold;
+        font-weight: normal;
     }
 
     .menu-tombol {
@@ -420,7 +423,7 @@ center a {
     .anak {
         margin-top: 35px;
         padding: 19px;
-        display: fixed;
+        display: flex;
         text-align: center;
         flex-direction: column;
         align-items: center;
